@@ -1,0 +1,40 @@
+using System;
+using MemoryPack;
+
+namespace MessagePack
+{
+    [MemoryPackable]
+#if MESSAGEPACK_INTERNAL
+    internal
+#else
+    public
+#endif
+    partial struct Nil : IEquatable<Nil>
+    {
+        public static readonly Nil Default = default(Nil);
+
+        public static bool operator ==(Nil left, Nil right) => true;
+
+        public static bool operator !=(Nil left, Nil right) => false;
+
+        public override bool Equals(object? obj)
+        {
+            return obj is Nil;
+        }
+
+        public bool Equals(Nil other)
+        {
+            return true;
+        }
+
+        public override int GetHashCode()
+        {
+            return 0;
+        }
+
+        public override string ToString()
+        {
+            return "()";
+        }
+    }
+}

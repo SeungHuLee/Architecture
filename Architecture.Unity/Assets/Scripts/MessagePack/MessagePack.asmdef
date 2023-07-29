@@ -1,0 +1,16 @@
+{
+    "name": "MessagePack",
+    "rootNamespace": "MessagePack",
+    "references": [
+        "GUID:756335c0388f7114790e504ed368ae1d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
