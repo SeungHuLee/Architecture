@@ -2,17 +2,17 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-Architecture.Unity/[Ll]ibrary/
-Architecture.Unity/[Tt]emp/
-Architecture.Unity/[Oo]bj/
-Architecture.Unity/[Bb]uild/
-Architecture.Unity/[Bb]uilds/
-Architecture.Unity/[Ll]ogs/
-Architecture.Unity/[Mm]emoryCaptures/
-Architecture.Server/bin
-Architecture.Server/obj
-Architecture.Shared/.output
-Architecture.Shared/obj
+src/Architecture.Unity/[Ll]ibrary/
+src/Architecture.Unity/[Tt]emp/
+src/Architecture.Unity/[Oo]bj/
+src/Architecture.Unity/[Bb]uild/
+src/Architecture.Unity/[Bb]uilds/
+src/Architecture.Unity/[Ll]ogs/
+src/Architecture.Unity/[Mm]emoryCaptures/
+src/Architecture.Server/bin
+src/Architecture.Server/obj
+src/Architecture.Shared/.output
+src/Architecture.Shared/obj
 [Uu]serSettings/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
