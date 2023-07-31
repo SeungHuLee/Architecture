@@ -1,0 +1,3 @@
+[submodule "src/MagicOnion"]
+	path = src/MagicOnion
+	url = https://github.com/SeungHuLee/MagicOnion.git
